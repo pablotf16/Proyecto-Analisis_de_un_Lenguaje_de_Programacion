@@ -1,5 +1,7 @@
 # Proyecto: Análisis de un Lenguaje de Programación (PHP)
 
+Integrantes: Vicente Malonnek, Benjamín Ezpinosa,Matias Leiva y Pablo Tapia. 
+
 Aplicación de consola para calcular el promedio y promedio general de cada alumno, que procesa las calificaciones de estudiantes mediante la lectura de un archivo estructurado en formato `.csv`.
 
 El objetivo principal de este proyecto es poner en práctica la propiedad multiparadigma de PHP como lenguaje de programacion, enfocandonos en la programacion imperativa y la programacion orientada a objetos (POO) especificamente.
@@ -26,10 +28,14 @@ El sistema tiene las siguientes caracteristicas en base al objetivo:
 ## Características de la Interfaz de Terminal
 
 Al ejecutar el programa principal, el usuario dispone de un menú interactivo con las siguientes opciones en tiempo real:
+
   **1. Mostrar Ranking:** Ordena a todos los estudiantes de mayor a menor según 
   su promedio general histórico.
+
   **2. Mostrar Reprobados:** Filtra y despliega exclusivamente a los alumnos cuyo promedio general es inferior a la nota mínima de aprobación (4.0).
+  
   **3. Mostrar Aprobados:** Filtra y despliega a los alumnos con rendimiento satisfactorio (promedio general igual o superior a 4.0).
+  
   **4. Salir:** Finaliza de manera limpia la ejecución del script.
 
 ## Instrucciones de Instalación y Ejecución
