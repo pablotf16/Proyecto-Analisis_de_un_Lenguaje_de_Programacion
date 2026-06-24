@@ -43,16 +43,20 @@ Al ejecutar el programa principal, el usuario dispone de un menú interactivo co
 ### Requisitos Previos
 
 - Tener instalado PHP (versión 7.0 o superior recomendada para soporte nativo del operador de comparación por naves espaciales `<=>`).
+*Nota: Puedes instalar PHP de forma independiente o instalarlo fácilmente a través de entornos como [XAMPP](https://www.apachefriends.org/), WAMP o MAMP.*
 
 ### Pasos para Ejecutar
 
 1. Coloque todos los archivos del proyecto (`main.php`, `Evaluador.php`, `Estudiante.php`, `Nota.php`) junto con el archivo de datos `estudiantes.csv` en el mismo directorio de trabajo.
 
 2. Abra una terminal o consola de comandos y navegue hasta la ruta de dicha carpeta:
-   ```bash
+
+```bash
    cd Proyecto-Analisis_de_un_Lenguaje_de_Programacion
+```
 
 3. Ejecute el script principal con el intérprete de PHP:
 
-Bash
+```bash
 php main.php
+```
