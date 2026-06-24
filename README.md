@@ -50,7 +50,7 @@ Al ejecutar el programa principal, el usuario dispone de un menú interactivo co
 
 2. Abra una terminal o consola de comandos y navegue hasta la ruta de dicha carpeta:
    ```bash
-   cd /ruta/a/tu/directorio
+   cd Proyecto-Analisis_de_un_Lenguaje_de_Programacion
 
 3. Ejecute el script principal con el intérprete de PHP:
 
