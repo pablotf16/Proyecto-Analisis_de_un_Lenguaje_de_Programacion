@@ -9,6 +9,7 @@ require_once 'Evaluador.php';
 
 $evaluador= new Evaluador();
 
+// Se abre el archivo CSV para leer los datos de los estudiantes
 $archivo = fopen("estudiantes.csv", "r");  // "r" = solo lectura
 
 if (!$archivo) {
@@ -52,6 +53,7 @@ while (($linea = fgetcsv($archivo, 0, ',', '"', '')) !== false) {
 }
 fclose($archivo);
 
+//Menu de opciones 
 echo "\n=================================\n";
 echo "Bienvenido al Evaluador de Notas\n";
 echo "=================================\n";
@@ -64,7 +66,7 @@ echo "4. Salir\n";
 
 $opcion = 0;
 while ($opcion != 4) {
-    // mostrar opciones
+    // Mostrar opciones
     $opcion = readline("Elige una opción: ");
     switch ($opcion) {
         case "1":
